@@ -1,0 +1,801 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maantechnology.salesprosaasmain"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:4:5-72
+12-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:4:22-69
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:7:5-76
+15-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:7:22-73
+16    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+16-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:8:5-73
+16-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:8:22-70
+17    <!-- Provide required visibility configuration for API level 30 and above -->
+18    <queries>
+18-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:10:5-21:15
+19
+20        <!-- If your app checks for SMS support -->
+21        <intent>
+21-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:12:9-15:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+22-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+23
+24            <data android:scheme="sms" />
+24-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+24-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+25        </intent>
+26        <!-- If your app checks for call support -->
+27        <intent>
+27-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:17:9-20:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+28-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+29
+30            <data android:scheme="tel" />
+30-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+30-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+31        </intent>
+32        <intent>
+32-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+33            <action android:name="android.support.customtabs.action.CustomTabsService" />
+33-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+33-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+34        </intent>
+35        <intent>
+35-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:11:9-17:18
+36            <action android:name="android.intent.action.VIEW" />
+36-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+36-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+37
+38            <data
+38-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+39                android:mimeType="*/*"
+40                android:scheme="*" />
+40-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+41        </intent>
+42        <intent>
+42-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:18:9-27:18
+43            <action android:name="android.intent.action.VIEW" />
+43-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+43-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+44
+45            <category android:name="android.intent.category.BROWSABLE" />
+45-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+45-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+46
+47            <data
+47-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+48                android:host="pay"
+49                android:mimeType="*/*"
+50                android:scheme="upi" />
+50-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+51        </intent>
+52        <intent>
+52-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:28:9-30:18
+53            <action android:name="android.intent.action.MAIN" />
+53-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:17-68
+53-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:25-66
+54        </intent>
+55        <intent>
+55-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:31:9-35:18
+56            <action android:name="android.intent.action.SEND" />
+56-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:13-65
+56-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:32:21-62
+57
+58            <data android:mimeType="*/*" />
+58-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+59        </intent>
+60        <intent>
+60-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:36:9-38:18
+61            <action android:name="rzp.device_token.share" />
+61-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+61-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+62        </intent> <!-- Specific apps you interact with, eg: -->
+63        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+63-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:12:9-88
+63-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:12:18-85
+64    </queries>
+65
+66    <uses-permission android:name="android.permission.BLUETOOTH" />
+66-->[:bluetooth_thermal_printer] /home/user/invoice_app/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+66-->[:bluetooth_thermal_printer] /home/user/invoice_app/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-65
+67    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+67-->[:bluetooth_thermal_printer] /home/user/invoice_app/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
+67-->[:bluetooth_thermal_printer] /home/user/invoice_app/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-71
+68    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+68-->[:nb_utils] /home/user/invoice_app/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+68-->[:nb_utils] /home/user/invoice_app/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+69    <uses-permission android:name="android.permission.CAMERA" />
+69-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+69-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+70
+71    <uses-feature android:name="android.hardware.camera" />
+71-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+71-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+72
+73    <uses-permission android:name="android.permission.FLASHLIGHT" />
+73-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+73-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+74    <uses-permission android:name="android.permission.WAKE_LOCK" />
+74-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:10:5-68
+74-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:10:22-65
+75
+76    <uses-feature
+76-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+77        android:glEsVersion="0x00020000"
+77-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+78        android:required="true" />
+78-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+79
+80    <permission
+80-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+81        android:name="com.maantechnology.salesprosaasmain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+81-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+82        android:protectionLevel="signature" />
+82-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+83
+84    <uses-permission android:name="com.maantechnology.salesprosaasmain.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.NFC" /> -->
+84-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+84-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+85    <!-- <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" /> -->
+86    <supports-screens
+86-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:14:5-18:39
+87        android:anyDensity="true"
+87-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:15:9-34
+88        android:largeScreens="true"
+88-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:16:9-36
+89        android:normalScreens="true"
+89-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:17:9-37
+90        android:smallScreens="true" />
+90-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:18:9-36
+91
+92    <application
+92-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:23:4-60:19
+93        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+93-->[androidx.core:core:1.10.1] /home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+94        android:icon="@mipmap/ic_launcher"
+94-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:25:9-43
+95        android:label="SalesPro"
+95-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:24:9-33
+96        android:largeHeap="true"
+96-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+97        android:theme="@style/Theme.AppCompat.NoActionBar" >
+97-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+98        <activity
+98-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:26:9-54:20
+99            android:name="com.maantechnology.salesprosaasmain.MainActivity"
+99-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:27:13-41
+100            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+100-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:30:13-163
+101            android:hardwareAccelerated="true"
+101-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:31:13-47
+102            android:launchMode="singleTop"
+102-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:28:13-43
+103            android:theme="@style/LaunchTheme"
+103-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:29:13-47
+104            android:windowSoftInputMode="adjustResize" >
+104-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:32:13-55
+105
+106            <!--
+107                 Specifies an Android theme to apply to this Activity as soon as
+108                 the Android process has started. This theme is visible to the user
+109                 while the Flutter UI initializes. After that, this theme continues
+110                 to determine the Window background behind the Flutter UI.
+111            -->
+112            <meta-data
+112-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:37:13-40:17
+113                android:name="io.flutter.embedding.android.NormalTheme"
+113-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:38:15-70
+114                android:resource="@style/NormalTheme" />
+114-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:39:15-52
+115            <!--
+116                 Displays an Android View that continues showing the launch screen
+117                 Drawable until Flutter paints its first frame, then this splash
+118                 screen fades out. A splash screen is useful to avoid any visual
+119                 gap between the end of Android's launch screen and the painting of
+120                 Flutter's first frame.
+121            -->
+122            <meta-data
+122-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:46:13-49:17
+123                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+123-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:47:15-79
+124                android:resource="@drawable/launch_background" />
+124-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:48:15-61
+125
+126            <intent-filter>
+126-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:50:13-53:29
+127                <action android:name="android.intent.action.MAIN" />
+127-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:17-68
+127-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:25-66
+128
+129                <category android:name="android.intent.category.LAUNCHER" />
+129-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:52:17-76
+129-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:52:27-74
+130            </intent-filter>
+131        </activity>
+132        <!--
+133             Don't delete the meta-data below.
+134             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+135        -->
+136        <meta-data
+136-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:57:9-59:33
+137            android:name="flutterEmbedding"
+137-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:58:13-44
+138            android:value="2" />
+138-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:59:13-30
+139
+140        <service
+140-->[:firebase_database] /home/user/invoice_app/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[:firebase_database] /home/user/invoice_app/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:68:13-37
+144            <meta-data
+144-->[:firebase_database] /home/user/invoice_app/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+145-->[:firebase_database] /home/user/invoice_app/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_database] /home/user/invoice_app/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+147            <meta-data
+147-->[:firebase_auth] /home/user/invoice_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+148                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+148-->[:firebase_auth] /home/user/invoice_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:firebase_auth] /home/user/invoice_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+150            <meta-data
+150-->[:firebase_storage] /home/user/invoice_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+151                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+151-->[:firebase_storage] /home/user/invoice_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[:firebase_storage] /home/user/invoice_app/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+153            <meta-data
+153-->[:firebase_core] /home/user/invoice_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+154                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+154-->[:firebase_core] /home/user/invoice_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[:firebase_core] /home/user/invoice_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+157                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+157-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-storage:20.2.1] /home/user/.gradle/caches/transforms-3/90714d3dc3215fc92bf36afab92dcd8e/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+160                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+160-->[com.google.firebase:firebase-storage:20.2.1] /home/user/.gradle/caches/transforms-3/90714d3dc3215fc92bf36afab92dcd8e/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-storage:20.2.1] /home/user/.gradle/caches/transforms-3/90714d3dc3215fc92bf36afab92dcd8e/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-database:20.2.2] /home/user/.gradle/caches/transforms-3/12e83cfb28ed67547d963aa3501dc522/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+163                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+163-->[com.google.firebase:firebase-database:20.2.2] /home/user/.gradle/caches/transforms-3/12e83cfb28ed67547d963aa3501dc522/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-database:20.2.2] /home/user/.gradle/caches/transforms-3/12e83cfb28ed67547d963aa3501dc522/transformed/jetified-firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+165        </service>
+166
+167        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+167-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+167-->[:flutter_barcode_scanner] /home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+168        <activity
+168-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+169            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+169-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+170            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+170-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+171            android:exported="false"
+171-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+172            android:theme="@style/AppTheme" />
+172-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+173        <activity
+173-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+174            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+174-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+175            android:exported="false"
+175-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+176            android:theme="@style/ThemeTransparent" />
+176-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+177        <activity
+177-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+178            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+178-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+179            android:exported="false"
+179-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+180            android:theme="@style/ThemeTransparent" />
+180-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+181        <activity
+181-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+182            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+182-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+183            android:exported="false"
+183-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+184            android:launchMode="singleInstance"
+184-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+185            android:theme="@style/ThemeTransparent" />
+185-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+186        <activity
+186-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+187            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+187-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+188            android:exported="false"
+188-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+189            android:launchMode="singleInstance"
+189-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+190            android:theme="@style/ThemeTransparent" />
+190-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+191
+192        <receiver
+192-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+193            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+193-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+194            android:enabled="true"
+194-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+195            android:exported="false" />
+195-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+196
+197        <meta-data
+197-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+198            android:name="io.flutter.embedded_views_preview"
+198-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+199            android:value="true" />
+199-->[:flutter_inappwebview] /home/user/invoice_app/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+200
+201        <provider
+201-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+202            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+202-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+203            android:authorities="com.maantechnology.salesprosaasmain.flutter.image_provider"
+203-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+204            android:exported="false"
+204-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+205            android:grantUriPermissions="true" >
+205-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+206            <meta-data
+206-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+207                android:name="android.support.FILE_PROVIDER_PATHS"
+207-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+208                android:resource="@xml/flutter_image_picker_file_paths" />
+208-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+209        </provider>
+210
+211        <activity
+211-->[:url_launcher_android] /home/user/invoice_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+212            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+212-->[:url_launcher_android] /home/user/invoice_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+213            android:exported="false"
+213-->[:url_launcher_android] /home/user/invoice_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+214            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+214-->[:url_launcher_android] /home/user/invoice_app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+215
+216        <provider
+216-->[:open_file] /home/user/invoice_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+217            android:name="com.crazecoder.openfile.FileProvider"
+217-->[:open_file] /home/user/invoice_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+218            android:authorities="com.maantechnology.salesprosaasmain.fileProvider.com.crazecoder.openfile"
+218-->[:open_file] /home/user/invoice_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+219            android:exported="false"
+219-->[:open_file] /home/user/invoice_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+220            android:grantUriPermissions="true" >
+220-->[:open_file] /home/user/invoice_app/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+221            <meta-data
+221-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+222                android:name="android.support.FILE_PROVIDER_PATHS"
+222-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+223                android:resource="@xml/filepaths" />
+223-->[:image_picker_android] /home/user/invoice_app/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+224        </provider>
+225
+226        <activity
+226-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+227            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+227-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+228            android:excludeFromRecents="true"
+228-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+229            android:exported="true"
+229-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+230            android:launchMode="singleTask"
+230-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+231-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+232            <intent-filter>
+232-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+233                <action android:name="android.intent.action.VIEW" />
+233-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+233-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+234
+235                <category android:name="android.intent.category.DEFAULT" />
+235-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+235-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+236                <category android:name="android.intent.category.BROWSABLE" />
+236-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+236-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+237
+238                <data
+238-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+239                    android:host="firebase.auth"
+240                    android:path="/"
+241                    android:scheme="genericidp" />
+241-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+242            </intent-filter>
+243        </activity>
+244        <activity
+244-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+245            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+245-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+246            android:excludeFromRecents="true"
+246-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+247            android:exported="true"
+247-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+248            android:launchMode="singleTask"
+248-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+249-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+250            <intent-filter>
+250-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+251                <action android:name="android.intent.action.VIEW" />
+251-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:13-65
+251-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:13:21-62
+252
+253                <category android:name="android.intent.category.DEFAULT" />
+253-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+253-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+254                <category android:name="android.intent.category.BROWSABLE" />
+254-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+254-->[com.google.firebase:firebase-auth:22.1.1] /home/user/.gradle/caches/transforms-3/8cc721df30d278acf5533adfe0468ba5/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+255
+256                <data
+256-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:13-42
+257                    android:host="firebase.auth"
+258                    android:path="/"
+259                    android:scheme="recaptcha" />
+259-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:14:19-39
+260            </intent-filter>
+261        </activity>
+262
+263        <provider
+263-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+264            android:name="com.google.firebase.provider.FirebaseInitProvider"
+264-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+265            android:authorities="com.maantechnology.salesprosaasmain.firebaseinitprovider"
+265-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+266            android:directBootAware="true"
+266-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+267            android:exported="false"
+267-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+268            android:initOrder="100" />
+268-->[com.google.firebase:firebase-common:20.3.3] /home/user/.gradle/caches/transforms-3/d9d4e992597be323200e98d87b5729d0/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+269
+270        <receiver
+270-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:42:9-49:20
+271            android:name="com.razorpay.RzpTokenReceiver"
+271-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:43:13-57
+272            android:exported="true" >
+272-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:44:13-36
+273            <intent-filter>
+273-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:46:13-48:29
+274                <action android:name="rzp.device_token.share" />
+274-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:13-61
+274-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:37:21-58
+275            </intent-filter>
+276        </receiver>
+277
+278        <activity
+278-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:51:9-59:20
+279            android:name="com.razorpay.CheckoutActivity"
+279-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:52:13-57
+280            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+280-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:53:13-83
+281            android:exported="false"
+281-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:54:13-37
+282            android:theme="@style/CheckoutTheme" >
+282-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:55:13-49
+283            <intent-filter>
+283-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:56:13-58:29
+284                <action android:name="android.intent.action.MAIN" />
+284-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:17-68
+284-->/home/user/invoice_app/android/app/src/main/AndroidManifest.xml:51:25-66
+285            </intent-filter>
+286        </activity>
+287
+288        <meta-data
+288-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:61:9-63:58
+289            android:name="com.razorpay.plugin.googlepay_all"
+289-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:62:13-61
+290            android:value="com.razorpay.RzpGpayMerged" />
+290-->[com.razorpay:checkout:1.6.35] /home/user/.gradle/caches/transforms-3/78362654630e7ec78d83af4086afeedf/transformed/jetified-checkout-1.6.35/AndroidManifest.xml:63:13-55
+291
+292        <activity
+292-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:23:9-26:66
+293            android:name="com.paytm.pgsdk.PaytmPGActivity"
+293-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:24:13-59
+294            android:screenOrientation="portrait"
+294-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:25:13-49
+295            android:theme="@style/Theme.AppCompat.NoActionBar" />
+295-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:26:13-63
+296        <activity
+296-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:27:9-29:63
+297            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+297-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:28:13-64
+298            android:theme="@style/TransparentActivityTheme" />
+298-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:29:13-60
+299
+300        <service
+300-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:31:9-33:40
+301            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+301-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:32:13-73
+302            android:exported="false" />
+302-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:33:13-37
+303        <service
+303-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:34:9-36:40
+304            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+304-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:35:13-72
+305            android:exported="false" />
+305-->[com.paytm.appinvokesdk:appinvokesdk:1.6.15] /home/user/.gradle/caches/transforms-3/9399919433139ff894c5001b8605a7f7/transformed/jetified-appinvokesdk-1.6.15/AndroidManifest.xml:36:13-37
+306        <service
+306-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:13:9-16:72
+307            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+307-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:14:13-75
+308            android:exported="false"
+308-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:15:13-37
+309            android:permission="android.permission.BIND_JOB_SERVICE" />
+309-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:16:13-69
+310        <service
+310-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:17:9-21:72
+311            android:name="easypay.appinvoke.utils.AnalyticsService"
+311-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:18:13-68
+312            android:enabled="true"
+312-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:19:13-35
+313            android:exported="false"
+313-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:20:13-37
+314            android:permission="android.permission.BIND_JOB_SERVICE" />
+314-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:21:13-69
+315
+316        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+316-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:23:9-90
+316-->[com.paytm.easypay:easypay-appinvoke:1.7.5] /home/user/.gradle/caches/transforms-3/88de2733ecc5c1454d56a172444fc21e/transformed/jetified-easypay-appinvoke-1.7.5/AndroidManifest.xml:23:19-87
+317        <activity
+317-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+318            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+318-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+319            android:excludeFromRecents="true"
+319-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+321            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+321-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+322        <!--
+323            Service handling Google Sign-In user revocation. For apps that do not integrate with
+324            Google Sign-In, this service will never be started.
+325        -->
+326        <service
+326-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+327            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+327-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+328            android:exported="true"
+328-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+329            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+329-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+330            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+330-->[com.google.android.gms:play-services-auth:20.4.0] /home/user/.gradle/caches/transforms-3/fb0c2e848261615e20f48c2854de40d3/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+331        <uses-library
+331-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+332            android:name="org.apache.http.legacy"
+332-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+333            android:required="false" />
+333-->[com.google.android.gms:play-services-maps:17.0.0] /home/user/.gradle/caches/transforms-3/991676ed838eef9f775cfc3c28a4a0bb/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+334
+335        <activity
+335-->[com.google.android.gms:play-services-base:18.1.0] /home/user/.gradle/caches/transforms-3/bb0f7c1a6cdae7321ca5400dc8d9162a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+336            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+336-->[com.google.android.gms:play-services-base:18.1.0] /home/user/.gradle/caches/transforms-3/bb0f7c1a6cdae7321ca5400dc8d9162a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+337            android:exported="false"
+337-->[com.google.android.gms:play-services-base:18.1.0] /home/user/.gradle/caches/transforms-3/bb0f7c1a6cdae7321ca5400dc8d9162a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+338-->[com.google.android.gms:play-services-base:18.1.0] /home/user/.gradle/caches/transforms-3/bb0f7c1a6cdae7321ca5400dc8d9162a/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+339
+340        <meta-data
+340-->[com.google.android.gms:play-services-basement:18.1.0] /home/user/.gradle/caches/transforms-3/d06e0a1c3b4cba1177d58008e07d319f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+341            android:name="com.google.android.gms.version"
+341-->[com.google.android.gms:play-services-basement:18.1.0] /home/user/.gradle/caches/transforms-3/d06e0a1c3b4cba1177d58008e07d319f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+342            android:value="@integer/google_play_services_version" />
+342-->[com.google.android.gms:play-services-basement:18.1.0] /home/user/.gradle/caches/transforms-3/d06e0a1c3b4cba1177d58008e07d319f/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+343
+344        <provider
+344-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+345            android:name="androidx.startup.InitializationProvider"
+345-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+346            android:authorities="com.maantechnology.salesprosaasmain.androidx-startup"
+346-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+347            android:exported="false" >
+347-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+348            <meta-data
+348-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+349                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+349-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+350                android:value="androidx.startup" />
+350-->[androidx.emoji2:emoji2:1.2.0] /home/user/.gradle/caches/transforms-3/b5e89c7c8b079e22b23302fe665a2a4e/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+351            <meta-data
+351-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/user/.gradle/caches/transforms-3/b06303f3665e501f75dd90b162452d98/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+352                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+352-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/user/.gradle/caches/transforms-3/b06303f3665e501f75dd90b162452d98/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+353                android:value="androidx.startup" />
+353-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/user/.gradle/caches/transforms-3/b06303f3665e501f75dd90b162452d98/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+354            <meta-data
+354-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+355                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+355-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+356                android:value="androidx.startup" />
+356-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+357        </provider>
+358
+359        <uses-library
+359-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+360            android:name="androidx.window.extensions"
+360-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+361            android:required="false" />
+361-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+362        <uses-library
+362-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+363            android:name="androidx.window.sidecar"
+363-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+364            android:required="false" />
+364-->[androidx.window:window:1.0.0-beta04] /home/user/.gradle/caches/transforms-3/4dc63610facf926ad9f18fb83b19a0eb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+365
+366        <receiver
+366-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+367            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+368            android:directBootAware="false"
+368-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+369            android:enabled="true"
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+370            android:exported="true"
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+371            android:permission="android.permission.DUMP" >
+371-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+372            <intent-filter>
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+373                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+374            </intent-filter>
+375            <intent-filter>
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+376                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+377            </intent-filter>
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+379                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+380            </intent-filter>
+381            <intent-filter>
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+382                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/user/.gradle/caches/transforms-3/d293b3d55163e65af904432f4aa6df87/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+383            </intent-filter>
+384        </receiver>
+385
+386        <activity
+386-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:21:9-26:67
+387            android:name="com.sslwireless.sslcommerzlibrary.view.activity.MainUIActivitySSLC"
+387-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:22:13-94
+388            android:configChanges="layoutDirection|locale"
+388-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:23:13-59
+389            android:screenOrientation="portrait"
+389-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:24:13-49
+390            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+390-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:25:13-69
+391            android:windowSoftInputMode="stateHidden|adjustPan" />
+391-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:26:13-64
+392        <activity
+392-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:27:9-31:58
+393            android:name="com.sslwireless.sslcommerzlibrary.view.activity.WebViewActivitySSLC"
+393-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:28:13-95
+394            android:screenOrientation="portrait"
+394-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:29:13-49
+395            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+395-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:30:13-69
+396            android:windowSoftInputMode="adjustResize" />
+396-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:31:13-55
+397        <activity
+397-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:32:9-36:55
+398            android:name="com.sslwireless.sslcommerzlibrary.view.activity.SSLOffersActivitySSLC"
+398-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:33:13-97
+399            android:screenOrientation="portrait"
+399-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:34:13-49
+400            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+400-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:35:13-69
+401            android:windowSoftInputMode="adjustPan" />
+401-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:36:13-52
+402        <activity
+402-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:37:9-41:55
+403            android:name="com.sslwireless.sslcommerzlibrary.view.activity.FAQActivitySSLC"
+403-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:38:13-91
+404            android:screenOrientation="portrait"
+404-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:39:13-49
+405            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+405-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:40:13-69
+406            android:windowSoftInputMode="adjustPan" />
+406-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:41:13-52
+407        <activity
+407-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:42:9-46:55
+408            android:name="com.sslwireless.sslcommerzlibrary.view.activity.SupportActivitySSLC"
+408-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:43:13-95
+409            android:screenOrientation="portrait"
+409-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:44:13-49
+410            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+410-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:45:13-69
+411            android:windowSoftInputMode="adjustPan" />
+411-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:46:13-52
+412        <activity
+412-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:47:9-51:55
+413            android:name="com.sslwireless.sslcommerzlibrary.view.activity.ActivityReadNFC"
+413-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:48:13-91
+414            android:screenOrientation="portrait"
+414-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:49:13-49
+415            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+415-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:50:13-69
+416            android:windowSoftInputMode="adjustPan" /> <!-- <activity -->
+416-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:51:13-52
+417        <!-- android:name=".view.activity.NFCCardReading" -->
+418        <!-- android:screenOrientation="portrait" -->
+419        <!-- android:hardwareAccelerated="false"> -->
+420        <!-- <intent-filter> -->
+421        <!-- <action android:name="android.nfc.action.TECH_DISCOVERED" /> -->
+422        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+423        <!-- </intent-filter> -->
+424        <!-- <meta-data -->
+425        <!-- android:name="android.nfc.action.TECH_DISCOVERED" -->
+426        <!-- android:resource="@xml/nfc_tech_filter" /> -->
+427        <!-- </activity> -->
+428        <receiver
+428-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:69:9-75:20
+429            android:name="com.sslwireless.sslcommerzlibrary.view.custom.SSLSmsBroadcastReceiver"
+429-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:70:13-97
+430            android:exported="true" >
+430-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:71:13-36
+431            <intent-filter>
+431-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:72:13-74:29
+432                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVE" />
+432-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:73:17-93
+432-->[:sslcommerzlibrary:] /home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:73:25-90
+433            </intent-filter>
+434        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+435        <activity
+435-->[com.google.android.play:core-common:2.0.3] /home/user/.gradle/caches/transforms-3/829e5e6e292a6c3bc8516c1717321e23/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+436            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+436-->[com.google.android.play:core-common:2.0.3] /home/user/.gradle/caches/transforms-3/829e5e6e292a6c3bc8516c1717321e23/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
+437            android:exported="false"
+437-->[com.google.android.play:core-common:2.0.3] /home/user/.gradle/caches/transforms-3/829e5e6e292a6c3bc8516c1717321e23/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+438            android:stateNotNeeded="true"
+438-->[com.google.android.play:core-common:2.0.3] /home/user/.gradle/caches/transforms-3/829e5e6e292a6c3bc8516c1717321e23/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+439            android:theme="@style/Theme.PlayCore.Transparent" />
+439-->[com.google.android.play:core-common:2.0.3] /home/user/.gradle/caches/transforms-3/829e5e6e292a6c3bc8516c1717321e23/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+440    </application>
+441
+442</manifest>

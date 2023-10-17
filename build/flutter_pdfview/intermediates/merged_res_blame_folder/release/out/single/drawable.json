@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/b1ef7a27a0072438b290b154ec3de116/transformed/core-1.7.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/default_scroll_handle_left.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3d5b1936f45f25a0e0dcbceac026f4ae/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/res/drawable/default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/default_scroll_handle_top.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3d5b1936f45f25a0e0dcbceac026f4ae/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/res/drawable/default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/b1ef7a27a0072438b290b154ec3de116/transformed/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/default_scroll_handle_right.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3d5b1936f45f25a0e0dcbceac026f4ae/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/res/drawable/default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/default_scroll_handle_bottom.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3d5b1936f45f25a0e0dcbceac026f4ae/transformed/jetified-android-pdf-viewer-3.2.0-beta.3/res/drawable/default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/b1ef7a27a0072438b290b154ec3de116/transformed/core-1.7.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_pdfview/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/b1ef7a27a0072438b290b154ec3de116/transformed/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    }
+]

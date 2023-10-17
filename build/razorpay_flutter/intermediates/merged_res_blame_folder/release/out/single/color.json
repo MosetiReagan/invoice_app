@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/razorpay_flutter/intermediates/merged_res/release/color/wallet_primary_text_holo_light.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/a141d3e98b64e39ffb3634d2e16ef568/transformed/jetified-play-services-wallet-18.1.3/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/razorpay_flutter/intermediates/merged_res/release/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/a141d3e98b64e39ffb3634d2e16ef568/transformed/jetified-play-services-wallet-18.1.3/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/razorpay_flutter/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/f5522625892890ab0875c2ce2462c944/transformed/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/razorpay_flutter/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/f5522625892890ab0875c2ce2462c944/transformed/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/razorpay_flutter/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/f5522625892890ab0875c2ce2462c944/transformed/jetified-play-services-base-17.5.0/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

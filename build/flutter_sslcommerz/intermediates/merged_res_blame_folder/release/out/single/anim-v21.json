@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/5229607b103551a2601d62975a410832/transformed/material-1.3.0-alpha03/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/5229607b103551a2601d62975a410832/transformed/material-1.3.0-alpha03/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/5229607b103551a2601d62975a410832/transformed/material-1.3.0-alpha03/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/5229607b103551a2601d62975a410832/transformed/material-1.3.0-alpha03/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    }
+]

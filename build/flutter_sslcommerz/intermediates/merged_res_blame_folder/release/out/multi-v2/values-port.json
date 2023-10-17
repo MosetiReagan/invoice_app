@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-3/d172f994d15222d99b6aaad03307e9ad/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-3/d172f994d15222d99b6aaad03307e9ad/transformed/appcompat-1.2.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

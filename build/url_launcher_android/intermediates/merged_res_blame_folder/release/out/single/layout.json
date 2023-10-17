@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/cbf6af57faa862ad6a44a6cd432888ee/transformed/browser-1.5.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/notification_action.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/da0e835d42a9bc4e9b06c2572372dd9d/transformed/core-1.10.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/url_launcher_android/intermediates/merged_res/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/cbf6af57faa862ad6a44a6cd432888ee/transformed/browser-1.5.0/res/layout/browser_actions_context_menu_row.xml"
+    }
+]

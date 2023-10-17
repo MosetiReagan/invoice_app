@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/open_file/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3f7e2daa9d684444ef6a32f993646975/transformed/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/open_file/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3f7e2daa9d684444ef6a32f993646975/transformed/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/open_file/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3f7e2daa9d684444ef6a32f993646975/transformed/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/open_file/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/home/user/.gradle/caches/transforms-3/3f7e2daa9d684444ef6a32f993646975/transformed/core-1.9.0/res/layout-v21/notification_action.xml"
+    }
+]

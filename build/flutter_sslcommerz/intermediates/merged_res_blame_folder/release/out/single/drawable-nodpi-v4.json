@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/email_icon.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/email_icon.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_card.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_card.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_eng.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_eng.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/support_icon.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/support_icon.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_cross.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_cross.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_tick.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_tick.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_bng.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_bng.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/bangladesh_sslc.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/bangladesh_sslc.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/visa_card_transperent.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/visa_card_transperent.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/help.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/help.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_delete.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_delete.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_info1.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_info1.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/ic_backk.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/ic_backk.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/messenger_icon.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/messenger_icon.png"
+    },
+    {
+        "merged": "/home/user/invoice_app/build/flutter_sslcommerz/intermediates/merged_res/release/drawable-nodpi-v4/default_card.png",
+        "source": "/home/user/.gradle/caches/transforms-3/dcb5297f95c699f69f552484e929753a/transformed/jetified-sslcommerzlibrary/res/drawable-nodpi-v4/default_card.png"
+    }
+]

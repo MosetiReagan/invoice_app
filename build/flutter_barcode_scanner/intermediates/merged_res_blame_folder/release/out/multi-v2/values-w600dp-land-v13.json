@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/user/invoice_app/build/flutter_barcode_scanner/intermediates/merged_res/release/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-3/1620b47633463b14cb0503e0b54710ad/transformed/material-1.3.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,51",
+                        "endOffsets": "105,157"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/user/invoice_app/build/flutter_barcode_scanner/intermediates/incremental/mergeReleaseResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-3/1620b47633463b14cb0503e0b54710ad/transformed/material-1.3.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,51",
+                        "endOffsets": "105,157"
+                    }
+                }
+            ]
+        }
+    ]
+}
