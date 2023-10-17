@@ -135,7 +135,7 @@ class _DueCalculationContactScreenState extends State<DueCalculationContactScree
                       child: Text(
                         lang.S.of(context).noDataAvailabe,
                         maxLines: 2,
-                        style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20.0),
+                        style: const TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20.0),
                       ),
                     );
             }, error: (e, stack) {

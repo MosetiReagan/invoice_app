@@ -130,13 +130,13 @@ class _PackageScreenState extends State<PackageScreen> {
                           children: [
                             Text(
                               lang.S.of(context).youRUsing,
-                              style: TextStyle(fontSize: 14),
+                              style: const TextStyle(fontSize: 14),
                             ),
-                            Text(
+                            const Text(
                               'Free Package',
                               overflow: TextOverflow.ellipsis,
                               maxLines: 1,
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 14,
                                 color: kMainColor,
                                 fontWeight: FontWeight.bold,

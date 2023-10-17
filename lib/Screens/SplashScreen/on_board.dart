@@ -5,7 +5,6 @@ import 'package:mobile_pos/Screens/Authentication/phone.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:mobile_pos/generated/l10n.dart' as lang;
 import '../../constant.dart';
-import '../Authentication/login_form.dart';
 
 class OnBoard extends StatefulWidget {
   const OnBoard({Key? key}) : super(key: key);

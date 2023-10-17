@@ -362,7 +362,7 @@ class _DueCollectionScreenState extends State<DueCollectionScreen> {
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: lang.S.of(context).description,
                             hintText: lang.S.of(context).addNote,
-                            border: OutlineInputBorder(),
+                            border: const OutlineInputBorder(),
                           ),
                         ),
                       ),
@@ -379,7 +379,7 @@ class _DueCollectionScreenState extends State<DueCollectionScreen> {
                                   FeatherIcons.camera,
                                   color: Colors.grey,
                                 ),
-                                SizedBox(width: 5),
+                                const SizedBox(width: 5),
                                 Text(
                                   lang.S.of(context).image,
                                   style: const TextStyle(color: Colors.grey, fontSize: 16),
@@ -532,7 +532,7 @@ class _DueCollectionScreenState extends State<DueCollectionScreen> {
                                                       child: Center(
                                                         child: Text(
                                                           lang.S.of(context).cancel,
-                                                          style: TextStyle(color: kMainColor),
+                                                          style: const TextStyle(color: kMainColor),
                                                         ),
                                                       ),
                                                     ),

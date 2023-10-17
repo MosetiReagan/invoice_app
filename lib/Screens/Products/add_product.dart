@@ -27,7 +27,6 @@ import '../../Provider/product_provider.dart';
 import '../../constant.dart';
 import '../../currency.dart';
 import '../Home/home.dart';
-import 'package:mobile_pos/generated/l10n.dart' as lang;
 
 // ignore: must_be_immutable
 class AddProduct extends StatefulWidget {
@@ -237,7 +236,7 @@ class _AddProductState extends State<AddProduct> {
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: lang.S.of(context).size,
                             hintText: 'M',
-                            border: OutlineInputBorder(),
+                            border: const OutlineInputBorder(),
                           ),
                         ),
                       ),
@@ -279,7 +278,7 @@ class _AddProductState extends State<AddProduct> {
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: lang.S.of(context).weight,
                             hintText: '10 inc',
-                            border: OutlineInputBorder(),
+                            border: const OutlineInputBorder(),
                           ),
                         ),
                       ),
@@ -298,7 +297,7 @@ class _AddProductState extends State<AddProduct> {
                             floatingLabelBehavior: FloatingLabelBehavior.always,
                             labelText: lang.S.of(context).capacity,
                             hintText: '244 liter',
-                            border: OutlineInputBorder(),
+                            border: const OutlineInputBorder(),
                           ),
                         ),
                       ),
@@ -318,7 +317,7 @@ class _AddProductState extends State<AddProduct> {
                       floatingLabelBehavior: FloatingLabelBehavior.always,
                       labelText: lang.S.of(context).type,
                       hintText: 'Usb C',
-                      border: OutlineInputBorder(),
+                      border: const OutlineInputBorder(),
                     ),
                   ),
                 ).visible(data.variations.contains('Type')),

@@ -225,7 +225,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Container(
                       height: MediaQuery.of(context).size.height / 2,
                       width: double.infinity,
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.all(Radius.circular(30)),
                       ),
@@ -236,10 +236,10 @@ class _SplashScreenState extends State<SplashScreen> {
                             child: Column(
                               children: [
                                 Padding(
-                                  padding: EdgeInsets.only(top: 20, bottom: 10),
+                                  padding: const EdgeInsets.only(top: 20, bottom: 10),
                                   child: Text(
                                     lang.S.of(context).anewUpdateAvailable,
-                                    style: TextStyle(
+                                    style: const TextStyle(
                                       fontSize: 20,
                                     ),
                                   ),
@@ -262,7 +262,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                       child: Center(
                                           child: Text(
                                         lang.S.of(context).updateNow,
-                                        style: TextStyle(color: Colors.white),
+                                        style: const TextStyle(color: Colors.white),
                                       )),
                                     ),
                                   ),
@@ -289,7 +289,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                       child: Center(
                                           child: Text(
                                         lang.S.of(context).skipTheUpdate,
-                                        style: TextStyle(color: Colors.white),
+                                        style: const TextStyle(color: Colors.white),
                                       )),
                                     ),
                                   ),
@@ -313,7 +313,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                       child: Center(
                                           child: Text(
                                         lang.S.of(context).rememberMeLater,
-                                        style: TextStyle(color: Colors.white),
+                                        style: const TextStyle(color: Colors.white),
                                       )),
                                     ),
                                   ),
@@ -363,10 +363,10 @@ class _SplashScreenState extends State<SplashScreen> {
                           child: Column(
                             children: [
                               Padding(
-                                padding: EdgeInsets.only(top: 20, bottom: 10),
+                                padding: const EdgeInsets.only(top: 20, bottom: 10),
                                 child: Text(
                                   lang.S.of(context).anewUpdateAvailable,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontSize: 20,
                                   ),
                                 ),
@@ -389,7 +389,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                     child: Center(
                                         child: Text(
                                       lang.S.of(context).updateNow,
-                                      style: TextStyle(color: Colors.white),
+                                      style: const TextStyle(color: Colors.white),
                                     )),
                                   ),
                                 ),
@@ -416,7 +416,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                     child: Center(
                                         child: Text(
                                       lang.S.of(context).skipTheUpdate,
-                                      style: TextStyle(color: Colors.white),
+                                      style: const TextStyle(color: Colors.white),
                                     )),
                                   ),
                                 ),
@@ -440,7 +440,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                     child: Center(
                                         child: Text(
                                       lang.S.of(context).rememberMeLater,
-                                      style: TextStyle(color: Colors.white),
+                                      style: const TextStyle(color: Colors.white),
                                     )),
                                   ),
                                 ),

@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                       child: Text(
                         lang.S.of(context).cancel,
-                        style: TextStyle(color: Colors.red),
+                        style: const TextStyle(color: Colors.red),
                       ),
                     ),
                   ],
@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       Text(
                         lang.S.of(context).yourPackageExpiredToday,
-                        style: TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 16),
                         textAlign: TextAlign.center,
                       ),
                       const SizedBox(height: 20),
@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             },
                             child: Text(
                               lang.S.of(context).cancel,
-                              style: TextStyle(color: Colors.red),
+                              style: const TextStyle(color: Colors.red),
                             ),
                           ),
                         ],

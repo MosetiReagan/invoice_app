@@ -279,7 +279,7 @@ class _DueInvoiceDetailsState extends State<DueInvoiceDetails> {
                 child: Center(
                   child: Text(
                     lang.S.of(context).print,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 18,
                       color: Colors.white,
                     ),

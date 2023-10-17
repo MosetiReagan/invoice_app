@@ -40,7 +40,7 @@ class _ContactUsState extends State<ContactUs> {
                 keyboardType: TextInputType.name,
                 maxLines: 30,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(),
+                  border: const OutlineInputBorder(),
                   hintText: lang.S.of(context).writeYourMessageHere,
                 ),
               ),

@@ -85,7 +85,7 @@ class _UserRoleScreenState extends State<UserRoleScreen> {
               child: Center(
                 child: Text(
                   lang.S.of(context).addUserRole,
-                  style: TextStyle(fontSize: 18, color: Colors.white),
+                  style: const TextStyle(fontSize: 18, color: Colors.white),
                 ),
               ),
             ),
